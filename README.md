@@ -4,7 +4,7 @@ Example discord bot using discord.js
 # Installation
 
 1. Install [Node.js](https://nodejs.org/en/).
-2. Open terminal and type ```npm i```
+2. Open terminal and type ```npm i```.
 3. Open ```config.json``` file and edit token & prefix.
 
 # Add commands
@@ -20,4 +20,4 @@ module.exports.help = {
 ```
 
 # Run
-open terminal and type ```node .```
+open terminal and type ```node .```.
