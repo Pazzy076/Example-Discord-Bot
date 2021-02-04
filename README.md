@@ -10,7 +10,7 @@ Example discord bot using discord.js
 # Add commands
 
 ```javascript
-module.exports.run = (client, message, args) => {
+module.exports.run = async (client, message, args) => {
   // The command code goes here
 }
 
