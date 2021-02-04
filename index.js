@@ -10,10 +10,10 @@ client.commands = new Discord.Collection();
 fs.readdir("./commands/", (err, files) => {
     if (err) return console.error(err);
 
-    files.forEach(f => {
-        if (!f.endsWith(".js")) return;
+    files.forEach(js => {
+        if (!js.endsWith(".js")) return;
 
-        let command = require(`./commands/${f}`);
+        let command = require(`./commands/${js}`);
 
         client.commands.set(command.help.name, command);
     });
@@ -33,7 +33,7 @@ client.on("message", async (message) => {
     let commandFile = client.commands.get(command);
 
     if (!commandFile) return;
-    
+
     commandFile.run(client, message, args);
 });
 
