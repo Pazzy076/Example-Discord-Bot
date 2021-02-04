@@ -2,6 +2,7 @@
 Example discord bot using discord.js
 
 #Installation
+
 1. Install [Node.js](https://nodejs.org/en/).
 2. Open terminal and type ```npm i```
 3. Open ```config.json``` file and edit token & prefix.
