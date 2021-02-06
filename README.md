@@ -1,4 +1,4 @@
-# Example-Discord-Bot
+# Example Discord.js Bot
 Example discord bot using discord.js
 
 # Installation
